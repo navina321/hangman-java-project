@@ -1,3 +1,5 @@
+package src;
+
 public class HangmanDisplay {
     public void drawHangman(){
         int livesLeft = 8;
