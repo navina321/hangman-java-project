@@ -8,21 +8,28 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner name = new Scanner(System.in);
+
         //welcome message
-        System.out.println("Welcome to HANGMAN!");
-        System.out.println("What is your name? Please enter it below!");
-        String userName = name.nextLine();
-        System.out.println("Hello " + userName + ", here are the rules!");
+//        System.out.println("Welcome to HANGMAN!");
+//        System.out.println("What is your name? Please enter it below!");
+//        String userName = name.nextLine();
+//        System.out.println("Hello " + userName + ", here are the rules!");
+
+        //USE COMMANDS
 
         //create array/arrayList of words in WordLibrary (see about importing file of words)
             //words = {"ANIMAL", "RADIATOR", "LAPTOP","ENCYCLOPEDIA",etc};
         ArrayList<String> words = new ArrayList<>();
+
         //display new word blanked out e.g _ _ _ _ _ _ _
             //get RANDOM new word from WordLibrary
         Random random = new Random();
         String word = words.get(random.nextInt(words.size()));
             //split each character in word by " "
-
+        String [] wordArr = word.split("(?!^)");
+        for(String character : wordArr){
+            System.out.println(character+" ");
+        }
             //replace each character in word with _
 
         //player enters character in terminal
