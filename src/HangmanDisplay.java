@@ -1,8 +1,13 @@
 package src;
 
-public class HangmanDisplay {
-    int livesLeft = 8;
+public class HangmanDisplay extends Lives{
+
+    public HangmanDisplay(int livesLeft) {
+        super(livesLeft);
+    }
+
     public void drawHangman(){
+        int livesLeft = 8;
         if(livesLeft == 8){
             System.out.println("   |----¬");
             System.out.println("   |");
