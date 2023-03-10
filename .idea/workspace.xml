@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09b00e3e-3c69-44b7-a6f7-0fbbbf66cd8e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Commands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hangman-project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hangman-project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hangman-project/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hangman-project/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hangman-project/src/HangmanDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hangman-project/src/HangmanDisplay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/hangman-project/src/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hangman-project/src/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hangman-project/src/WordLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/hangman-project/src/WordLibrary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hangman-project/src/Welcome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/hangman-project/src/WordLibrary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameNarrator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HangmanDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HangmanDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lives.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Welcome.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WordLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordLibrary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

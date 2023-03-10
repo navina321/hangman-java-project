@@ -1,10 +1,6 @@
 package src;
 
-public class HangmanDisplay extends Lives{
-
-    public HangmanDisplay(int livesLeft) {
-        super(livesLeft);
-    }
+public class HangmanDisplay {
 
     public void drawHangman(){
         int livesLeft = 8;
@@ -57,7 +53,7 @@ public class HangmanDisplay extends Lives{
             System.out.println("   |----¬");
             System.out.println("   |    O");
             System.out.println("   |   (|)");
-            System.out.println("   |   ||");
+            System.out.println("   |   /|");
             System.out.println("   |");
             System.out.println("___|___");
         }
